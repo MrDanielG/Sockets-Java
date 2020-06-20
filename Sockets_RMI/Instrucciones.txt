@@ -1,0 +1,11 @@
+La manera fácil de ejecutar sobre línea de comandos es la siguiente:
+1. Coloca todos los archivos .java en una misma carpeta que elijas arbitrariamente.
+2. Elimina la línea que especifica el paquete (package).
+3. Para compilar todos los archivos de una sóla vez ejecuta: javac *.java
+4. Si no hay errores de compilación, dirígete a la carpeta que contiene los archivos .class resultantes.
+5. Para lanzar el programa de registro de RMI de Java, ejecuta: rmiregistry
+6. Para lanzar el Servidor ejecuta: java RMIServer
+7. Para lanzar el Cliente ejecuta: java RMIClient
+
+Asegúrate de que tu versión de Java contenga el rmiregistry.
+
